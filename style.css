@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(rgb(165, 10, 173), rgb(207, 69, 150));
+    background: linear-gradient(rgb(165, 10, 173), rgb(52, 120, 100));
 }
 
 .container {
@@ -37,6 +37,10 @@ td {
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 }
 
+
+tbody tr { 
+    cursor: pointer;
+}
 tbody tr:hover {
     background: rgba(243, 103, 199, 0.4);
 
