@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(165, 10, 173), rgb(207, 69, 150));
+}
